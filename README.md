@@ -1,2 +1,3 @@
-# PPN
-Předmět A0B34PPN - Principy a pravidla elektronického návrhu v zimě 2023 na ČVUT v Praze
+# A0B34PPN - Principy a pravidla elektronického návrhu
+
+Seznámení se základními principy návrhu elektronických systémů jako je spolehlivost, elektromagnetická kompatibilita, testovatelnost, bezpečnost... A z nich vyplývajících obecně platných návrhových pravidel, která jsou nezbytná pro úspěšnou profesionální konstrukci elektronických zařízení, u nichž je dosahováno špičkových parametru ve smyslu: vysokých frekvencí a proudů, odolnosti proti rušení, nízké úrovni vyzařování, miniaturizace, minimalizace výrobních nákladů. Cílem není specializovat se na úzký okruh zařízení a systémů. Důraz je kladen na osvojení metodiky návrhu u zařízení obecně, a to praktickým způsobem s podporou moderních počítačových návrhových prostředků.
