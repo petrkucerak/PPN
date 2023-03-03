@@ -1,9 +1,11 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[11/02/20]")
+  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[03/03/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "..\1_libs\custom_lib_1.olb"
+        (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (File ".\sch_172.dsn"
       (Type "Schematic Design"))
@@ -11,7 +13,9 @@
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
-    (NoModify))
+    (NoModify)
+    ("Allegro Netlist Output Board File"
+       "C:\Users\KUERAP~1\AppData\Local\Temp\"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -23,4 +27,54 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs"))
+  (Folder "Logs")
+  (PartMRUSelector
+    ("TL071H D"
+      (FullPartName "TL071H D.Normal")
+      (LibraryName
+         "C:\USERS\KUčERAPETR\DOCUMENTS\REPOS\PPN\1_LIBS\CUSTOM_LIB_1.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Petr.Kucera")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\sch_172.dsn")
+      (Path "Design Resources" ".\sch_172.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\sch_172.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\1_libs\custom_lib_1.olb")
+      (Select "Design Resources" "Library" "..\1_libs\custom_lib_1.olb"
+         "TL071H D"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 369 0 779"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1224 24 797")
+        (Scroll "3282 1176")
+        (Zoom "312")
+        (Occurrence "/"))
+      (Path "C:\USERS\KUčERAPETR\DOCUMENTS\REPOS\PPN\PROJECT\SCH_172.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1224 24 797")
+        (Scroll "-1 0")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path "C:\USERS\KUčERAPETR\DOCUMENTS\REPOS\PPN\PROJECT\SCH_172.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "proc"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1224 24 797"))
+      (Path "C:\Users\KučeraPetr\Documents\Repos\PPN\1_libs\custom_lib_1.OLB")
+      (Package "TL071H D")
+      (PartType "1"))))
