@@ -1,0 +1,13 @@
+idf out 
+setwindow form.idf_out
+FORM idf_out execute 
+setwindow text
+close 
+setwindow pcb
+generaledit 
+step out 
+setwindow form.step_out
+FORM step_out done 
+FORM step_out cancel 
+setwindow pcb
+generaledit

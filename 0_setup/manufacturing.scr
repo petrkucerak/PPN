@@ -1,0 +1,16 @@
+nctape_full 
+setwindow form.nc_drill
+FORM nc_drill execute 
+FORM nc_drill close 
+setwindow pcb
+generaledit 
+artwork 
+setwindow form.film_control
+FORM film_control select_all 
+FORM film_control create 
+setwindow text
+close 
+setwindow form.film_control
+FORM film_control ok 
+setwindow pcb
+generaledit

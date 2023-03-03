@@ -1,0 +1,80 @@
+trapsize 1254
+generaledit
+colorview create 
+generaledit 
+setwindow form.colorview_create
+FORM colorview_create colorview_name pred_DXF 
+FORM colorview_create save
+FORM colorview_create done  
+setwindow pcb 
+setwindow form.vf_vis
+FORM vf_vis colorview_list File: dxf_TOP 
+color -globvis off 
+color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+color -vis 'BOARD GEOMETRY/OUTLINE' 
+color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+color -vis 'DRC ERROR CLASS/SOLDERMASK_TOP' 
+color -vis 'DRC ERROR CLASS/ALL' 
+color -vis MANUFACTURING/MILL_INSIDE 
+color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+color -vis PIN/TOP 
+color -vis 'REF DES/SILKSCREEN_TOP' 
+color -vis 'BOARD GEOMETRY/DXF_DRL'
+setwindow pcb
+trapsize 1254
+generaledit 
+dxf out 
+setwindow form.dxf_out
+FORM dxf_out units MM 
+FORM dxf_out browsedxf 
+fillin "dxf_TOP.dxf"
+FORM dxf_out edit 
+FORM dxf_out browselayer 
+fillin "dxf_TOP_l.cnv"
+FORM dxf_out edit 
+setwindow form.dxfOutMapping
+FORM dxfOutMapping selectall YES 
+FORM dxfOutMapping usedefaultlayernames YES 
+FORM dxfOutMapping map 
+FORM dxfOutMapping done
+setwindow form.dxf_out
+FORM dxf_out execute 
+FORM dxf_out close 
+setwindow pcb
+generaledit 
+setwindow form.vf_vis
+FORM vf_vis colorview_list File: dxf_BOTTOM 
+color -globvis off 
+color -vis 'BOARD GEOMETRY/SILKSCREEN_BOTTOM' 
+color -vis 'BOARD GEOMETRY/OUTLINE' 
+color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+color -vis 'DRC ERROR CLASS/SOLDERMASK_BOTTOM' 
+color -vis 'DRC ERROR CLASS/ALL' 
+color -vis 'PACKAGE GEOMETRY/SILKSCREEN_BOTTOM' 
+color -vis PIN/BOTTOM 
+color -vis 'REF DES/SILKSCREEN_BOTTOM' 
+color -vis 'BOARD GEOMETRY/DXF_DRL'
+setwindow pcb
+trapsize 1254
+generaledit 
+dxf out 
+setwindow form.dxf_out
+FORM dxf_out units MM 
+FORM dxf_out browsedxf 
+fillin "dxf_BOTTOM.dxf"
+FORM dxf_out browselayer 
+fillin "dxf_BOTTOM_l.cnv"
+FORM dxf_out edit 
+setwindow form.dxfOutMapping
+FORM dxfOutMapping selectall YES 
+FORM dxfOutMapping usedefaultlayernames YES 
+FORM dxfOutMapping map 
+FORM dxfOutMapping done
+setwindow form.dxf_out
+FORM dxf_out execute 
+FORM dxf_out close 
+setwindow pcb
+generaledit
+setwindow form.vf_vis
+FORM vf_vis colorview_list File: pred_DXF
+ 

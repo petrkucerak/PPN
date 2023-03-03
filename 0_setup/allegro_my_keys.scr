@@ -1,0 +1,57 @@
+alias ~U    plot setup
+alias ~P    plot   
+alias ~M    move
+alias ~L    zoom fit
+alias ~F    pop finish
+alias ~Z    undo
+alias ~Y    redo
+alias ~R    mirror
+alias ~A    create fanout
+alias ~E    property edit
+alias ~C    copy
+alias F2    add connect
+alias F3    slide
+alias SF2   next
+alias ~W    pop swap layers
+alias  c    change
+alias  s    shape select
+alias  p    place manual
+alias  t    delay tune
+alias  m    move
+alias  as   assign refdes
+alias  sw   swap components
+alias  g    grid toggle
+alias  zc   zcopy shape
+alias  ss   status
+alias  n    pop neck
+alias  at   add text
+alias  et   text edit
+alias  al   add line
+alias  cc   color192
+alias  ft   pop route_from_target
+alias  gg   define grid
+funckey i   zoom in
+funckey o   zoom out
+funckey r   rotate
+funckey	w   pop swap layers
+funckey m   move
+funckey d   delete
+funckey ,   rotate
+alias  gg5  replay grid_5mils
+alias  gg01  replay grid_01mm
+alias  xf   replay dxf_export
+alias  cue  replay post_cue
+alias  vz   replay post_vz
+alias  gon  replay global_ON
+alias  4l   replay 4_layer
+alias  fc   replay full_contact
+alias  net  replay all_off_net
+alias  sym  replay all_off_symbol
+alias  pin  replay all_off_pin
+alias Esc done
+alias de  replay dehil
+alias sst   replay sst_vis
+alias ssb  replay ssb_vis
+alias fd	flipdesign
+alias ac   assign color
+alias ass replay assembly_pdf

@@ -1,0 +1,15 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+color -vis "BOARD GEOMETRY/SILKSCREEN_BOTTOM"
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "COMPONENT VALUE/SILKSCREEN_BOTTOM"
+color -vis "DRC ERROR CLASS/SOLDERMASK_BOTTOM"
+color -vis "DRC ERROR CLASS/ALL"
+color -vis "PACKAGE GEOMETRY/SILKSCREEN_BOTTOM"
+color -vis "PIN/BOTTOM"
+color -vis "PIN/SOLDERMASK_BOTTOM"
+color -vis "REF DES/SILKSCREEN_BOTTOM"
+color -vis "VIA CLASS/BOTTOM"

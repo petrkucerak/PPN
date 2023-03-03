@@ -1,0 +1,1 @@
+{Item}\t{Quantity}\t{VALUE}\t{Value2}\t{Specification}\t{Supplier}\t{Order_code}\t{PCB Footprint}\t{Reference}

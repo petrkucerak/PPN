@@ -1,0 +1,11 @@
+PIN DELAY
+REFDES	U6
+DEVICE	s_qfp_144_rm_197
+UNITS	millimeters
+
+pin number	Etch Length (millimeters)
+27	5.0001
+28	5.0001
+30	5.0001
+31	1.9999
+32	5.0001

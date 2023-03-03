@@ -1,0 +1,41 @@
+color192 load my_palette.col
+
+setwindow cvf.dialog
+cvf select_color_cell 27
+cvf layer_grid_clr 3 154 59 14876672
+cvf layer_grid_clr 3 158 59 14876672
+cvf layer_grid_clr 3 162 59 14876672
+cvf layer_grid_clr 3 166 59 14876672
+cvf layer_grid_clr 3 174 59 14876672
+cvf layer_grid_clr 3 178 59 14876672
+cvf select_color_cell 0
+cvf layer_grid_clr 6 154 32 255
+cvf layer_grid_clr 6 158 32 255
+cvf layer_grid_clr 6 162 32 255
+cvf layer_grid_clr 6 166 32 255
+cvf layer_grid_clr 6 174 32 255
+cvf layer_grid_clr 6 178 32 255
+cvf select_color_cell 23
+cvf layer_grid_clr 4 154 55 3836771
+cvf layer_grid_clr 4 158 55 3836771
+cvf layer_grid_clr 4 162 55 3836771
+cvf layer_grid_clr 4 166 55 3836771
+cvf layer_grid_clr 4 174 55 3836771
+cvf layer_grid_clr 4 178 55 3836771
+cvf select_color_cell 174
+cvf layer_grid_clr 5 154 175 16711835
+cvf layer_grid_clr 5 158 175 16711835
+cvf layer_grid_clr 5 162 175 16711835
+cvf layer_grid_clr 5 166 175 16711835
+cvf layer_grid_clr 5 174 175 16711835
+cvf layer_grid_clr 5 178 175 16711835
+cvf layer_tree_item 61
+cvf select_color_cell 33
+cvf layer_grid_clr 15 250 65 8618883
+cvf select_color_cell 6
+cvf layer_grid_clr 16 250 38 955537
+cvf apply
+cvf okay
+
+setwindow pcb
+replay my_view.color 

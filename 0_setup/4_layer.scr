@@ -1,0 +1,3 @@
+setwindow form.vf_vis
+FORM vf_vis colorview_list File: 4_lay_design 
+setwindow pcb

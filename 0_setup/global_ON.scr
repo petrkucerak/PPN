@@ -1,0 +1,10 @@
+color192 
+setwindow cvf.dialog
+cvf layer_mode
+setwindow pcb
+generaledit 
+setwindow cvf.dialog
+cvf global_visible
+cvf apply
+cvf okay
+setwindow pcb

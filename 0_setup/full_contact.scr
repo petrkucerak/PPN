@@ -1,0 +1,8 @@
+setwindow form.editprop1
+FORM editprop1 properties Dyn_Thermal_Con_Type 
+setwindow form.editprop2
+FORM editprop2 dyn_thermal_con_type enum_dyn_thermal_prop_value FULL_CONTACT 
+FORM editprop2 apply  
+setwindow form.editprop1
+FORM editprop1 done  
+setwindow pcb
