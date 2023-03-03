@@ -1,0 +1,102 @@
+\t (00:00:07) allegro 22.1 S001 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Fri Mar  3 10:20:44 2023
+\t (00:00:07)         Host=CSC-9001 User=Petr.Kucera Pid=12740 CPUs=8
+\t (00:00:07) CmdLine= C:\Cadence\SPB_22.1\tools\bin\allegro.exe
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:10) Starting new design...
+\i (00:00:11) trapsize 116667
+\i (00:00:11) generaledit 
+\i (00:00:20) open 
+\i (00:00:33) fillin "pcb-00_netlist.brd"
+\i (00:00:33) trapsize 782
+\i (00:00:33) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\t (00:00:33) Opening existing design...
+\i (00:00:48) fillin yes 
+\w (00:00:48) WARNING(SPMHDB-213): DRC set to "out of date". The current product selection supports a different DRC capability than what is saved in the design.
+\i (00:00:48) trapsize 4389
+\d (00:00:48) Design opened: C:/Users/KučeraPetr/Documents/Repos/PPN/project/pcb-00_netlist.brd
+\i (00:00:48) generaledit 
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 49.1238 -43.3812
+\i (00:00:58) trapsize 2194
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 49.1237 -43.3812
+\i (00:00:58) trapsize 1097
+\i (00:00:59) zoom out 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom out 49.1237 -43.3812
+\i (00:00:59) trapsize 2194
+\i (00:01:00) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 49.1237 -43.3812
+\i (00:01:00) trapsize 1097
+\i (00:01:00) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 49.1237 -43.3812
+\i (00:01:00) trapsize 549
+\i (00:01:03) trapsize 552
+\i (00:01:03) trapsize 592
+\i (00:01:03) trapsize 616
+\i (00:01:03) trapsize 631
+\i (00:01:03) trapsize 642
+\i (00:01:03) trapsize 651
+\i (00:01:03) trapsize 654
+\i (00:01:03) trapsize 652
+\i (00:01:03) trapsize 645
+\i (00:01:03) trapsize 646
+\i (00:01:03) trapsize 661
+\i (00:01:04) trapsize 689
+\i (00:01:04) trapsize 728
+\i (00:01:04) trapsize 764
+\i (00:01:04) trapsize 798
+\i (00:01:04) trapsize 806
+\i (00:01:04) trapsize 808
+\i (00:01:04) trapsize 809
+\i (00:01:04) trapsize 822
+\i (00:01:04) trapsize 823
+\i (00:01:04) trapsize 854
+\i (00:01:04) trapsize 887
+\i (00:01:05) trapsize 912
+\i (00:01:05) trapsize 950
+\i (00:01:05) trapsize 980
+\i (00:01:05) trapsize 1003
+\i (00:01:05) trapsize 1013
+\i (00:01:05) trapsize 1017
+\i (00:01:05) trapsize 1018
+\i (00:01:05) trapsize 1020
+\i (00:01:08) trapsize 1018
+\i (00:01:08) trapsize 1014
+\i (00:01:08) trapsize 1007
+\i (00:01:08) trapsize 1000
+\i (00:01:08) trapsize 980
+\i (00:01:08) trapsize 921
+\i (00:01:08) trapsize 825
+\i (00:01:08) trapsize 718
+\i (00:01:08) trapsize 682
+\i (00:01:08) trapsize 652
+\i (00:01:09) trapsize 638
+\i (00:01:09) trapsize 634
+\i (00:01:09) trapsize 632
+\i (00:01:09) trapsize 631
+\i (00:01:09) trapsize 612
+\i (00:01:09) trapsize 610
+\i (00:01:09) trapsize 600
+\i (00:01:09) trapsize 577
+\i (00:01:09) trapsize 568
+\i (00:01:09) trapsize 567
+\i (00:01:09) trapsize 566
+\i (00:01:10) drag_start grid 37.6915 -41.3955
+\i (00:01:11) drag_stop 48.2363 -48.4631
+\i (00:01:13) drag_start grid 47.6813 -47.9874
+\i (00:01:14) drag_stop 36.0605 -39.1642
+\i (00:01:18) setwindow form.find
+\i (00:01:18) FORM find all_on  
+\i (00:01:19) FORM find all_off  
+\i (00:01:20) FORM find all_on  
+\i (00:01:24) setwindow pcb
+\i (00:01:24) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:01:26) exit 
+\t (00:01:27)     Journal end - Fri Mar  3 10:22:03 2023
